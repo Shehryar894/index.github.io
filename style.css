@@ -321,7 +321,8 @@ background:linear-gradient(rgb(255, 77, 41,0.9),rgb(255, 77, 41,0.9)),url(/img/b
 }
 /* footer */
 footer{
-    text-align: center;
+   
+    text-align: center !important;
     padding-top: 80px;
     padding-bottom: 40px;
     color:#fff;
@@ -338,6 +339,11 @@ footer .navbar-brand{
     border-top:solid 1px rgba(255,255,255,0.288);
     /* margin-top:40px ; */
     padding-top: 20px;
+    /* text-align:center; */
+}
+.footer-bottom p{
+    margin-left: auto;
+    margin-right: auto;
 }
 footer .social-links a{
     margin-left: 5px;
@@ -347,4 +353,9 @@ footer .social-links a{
 /* modal */
 .modal-body .label{
     color: blue !important;
+}
+/* form */
+.form-control:focus{
+    box-shadow: none;
+    border-color: red;
 }
